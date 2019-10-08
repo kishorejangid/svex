@@ -4,6 +4,13 @@ define(['require', 'csui/lib/underscore', 'csui/lib/jquery',
 ], function (require, _, $, CommandModel, CommandHelper, lang) {
   'use strict';
 
+  /**
+   * Created by WebStorm.
+   * User: Kishore Kumar
+   * Date: 08-Oct-2019
+   * Time: 10:01 PM
+   */
+
   // Dependencies needed only for the command execution
   var ModalAlert;
 
@@ -15,12 +22,14 @@ define(['require', 'csui/lib/underscore', 'csui/lib/jquery',
       scope    : 'single'
     },
 
-    /*enabled: function (status) {
+    enabled: function (status) {
       // Check that a single node, which can be modified, was selected
-      //var node = CommandHelper.getJustOneNode(status);
+      //Change this if you want to sow only for documents
+      var node = CommandHelper.getJustOneNode(status);
+      //If needs to be shown only for documents then
+      return node && node.get('type') === 144;
       //return !!node;
-      return true;
-    },*/
+    },
 
     execute: function (status, options) {
       var self     = this,

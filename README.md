@@ -125,3 +125,5 @@ Edit your sources and refresh the browser page to check the results.
 
 You also can copy samples from the SDK into this project and follow the
 respective documentation.
+
+#Extension for Smart UI to add a custom command called Bulk Export
