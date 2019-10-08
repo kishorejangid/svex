@@ -120,9 +120,7 @@ page in the browser.
 
 
 
-#Extension for Smart UI to add a custom command called Bulk Export
-
-build using
+## Extension for Smart UI to add a custom command called Bulk Export
 
     grunt debug
     
