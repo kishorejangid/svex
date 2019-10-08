@@ -11,7 +11,6 @@ The following tools have to be installed, before you start:
 * Git
 * Grunt command line tool:
 
-
     npm install -g grunt-cli
 
 
@@ -119,11 +118,12 @@ page in the browser.
     npm start
 
 
-Open a testing HTML page, for example:
-http://localhost:7777/src/widgets/<widget directory>/test/index.html.
-Edit your sources and refresh the browser page to check the results.
 
-You also can copy samples from the SDK into this project and follow the
-respective documentation.
 
 #Extension for Smart UI to add a custom command called Bulk Export
+
+build using
+
+    grunt debug
+    
+from the src folder
