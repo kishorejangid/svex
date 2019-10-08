@@ -1,0 +1,23 @@
+{
+  "csui/models/server.module/server.module.collection": {
+    "modules": {
+      "svex": {
+        "version": "16.2.4"
+      }
+    }
+  },
+  "csui/utils/commands": {
+    "extensions": {
+      "svex": [
+        "svex/commands/bulk.export/bulk.export.command"
+      ]
+    }
+  },
+  "csui/widgets/nodestable/toolbaritems": {
+    "extensions": {
+      "svex": [
+        "svex/commands/bulk.export/bulk.export.nodestable.toolitems"
+      ]
+    }
+  }
+}

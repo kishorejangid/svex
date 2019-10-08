@@ -1,0 +1,7 @@
+{
+  "generator-csui-extension": {
+    "projectName": "svex",
+    "projectDescription": "Smart View Extensions",
+    "modulePrefix": "svex"
+  }
+}
