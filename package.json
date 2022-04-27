@@ -23,7 +23,7 @@
     "csso": "^3.2.0",
     "eslint-config-defaults": "^9.0.0",
     "esprima": "^4.0.0",
-    "grunt": "^1.0.1",
+    "grunt": "^1.5.2",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-compress": "^1.4.3",
     "grunt-contrib-copy": "^1.0.0",
